@@ -41,7 +41,7 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 ```
 
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Usedd
 
 | Component     | Tool / Service        |
 |---------------|------------------------|
