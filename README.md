@@ -19,23 +19,7 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 
 ## 📂 Folder Structure
 
-.
-├── airflow/                 # DAGs & Airflow configs
-│   └── dags/
-│       └── traffic_pipeline_dag.py
-├── kafka/
-│   ├── producer.py          # Traffic/Weather fetch
-│   └── consumer.py          # DB insertion
-├── scripts/
-│   ├── get_nearby_roads.py  # Overpass API call
-│   ├── transform_traffic.py
-│   └── bulk_insert.py
-├── grafana_loki/
-│   └── loki-config.yaml
-├── postgres/
-│   └── init.sql
-├── docker-compose.yml
-└── README.md
+<pre><code>```bash ## 📂 Folder Structure . ├── airflow/ # DAGs & Airflow configs │ └── dags/ │ └── traffic_pipeline_dag.py ├── kafka/ │ ├── producer.py # Traffic/Weather fetch │ └── consumer.py # DB insertion ├── scripts/ │ ├── get_nearby_roads.py # Overpass API call │ ├── transform_traffic.py │ └── bulk_insert.py ├── grafana_loki/ │ └── loki-config.yaml ├── postgres/ │ └── init.sql ├── docker-compose.yml └── README.md ``` </code></pre>
 
 ## 🛠️ Technologies Used
 
