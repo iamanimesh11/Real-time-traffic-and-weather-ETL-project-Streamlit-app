@@ -38,17 +38,30 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 ├── docker-compose.yml
 └── README.md
 
-## 🛠️ Technologies Used
-
-| Component     | Tool / Service        |
-|---------------|------------------------|
-| Data Source   | TomTom, Overpass, WeatherAPI |
-| Scheduler     | Apache Airflow         |
-| Streaming     | Apache Kafka           |
-| Storage       | PostgreSQL             |
-| Logging       | Grafana Loki           |
-| Container     | Docker, Docker Compose |
-| Language      | Python                 |
+<h2>🛠️ Technologies Used</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+  <div style="flex: 1 1 300px; padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
+    <strong>📡 Data Source:</strong> TomTom, Overpass, WeatherAPI
+  </div>
+  <div style="flex: 1 1 300px; padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
+    <strong>⏰ Scheduler:</strong> Apache Airflow
+  </div>
+  <div style="flex: 1 1 300px; padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
+    <strong>🔄 Streaming:</strong> Apache Kafka
+  </div>
+  <div style="flex: 1 1 300px; padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
+    <strong>🗄️ Storage:</strong> PostgreSQL
+  </div>
+  <div style="flex: 1 1 300px; padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
+    <strong>📊 Logging:</strong> Grafana Loki
+  </div>
+  <div style="flex: 1 1 300px; padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
+    <strong>📦 Container:</strong> Docker, Docker Compose
+  </div>
+  <div style="flex: 1 1 300px; padding: 1rem; border: 1px solid #ddd; border-radius: 8px;">
+    <strong>🐍 Language:</strong> Python
+  </div>
+</div>
 
 ---
 
