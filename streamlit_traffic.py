@@ -26,11 +26,11 @@ else:
     
 
 DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1358363882833313882/TIip_rNgIAj5uIxAYJbmZ2YAHOQ-C9iwi-bFQ3qqY5FNqMcTUVD7udJM8_9ZMZzCDIVv"  # Replace with your webhook
-
+firebase_creds = st.secrets["firebase"]
 class ApiMonitor:
     def __init__(self, cred_path, collection="api_usage"):
         if not firebase_admin._apps:
-            cred = credentials.Certificate(cred_path)
+            cred = credentials.Certificate(dict(firebase_creds))
             firebase_admin.initialize_app(cred)
 
         self.db = firestore.client()
