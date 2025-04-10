@@ -19,7 +19,6 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 
 ## 📂 Folder Structure
 
-```bash
 .
 ├── airflow/                 # DAGs & Airflow configs
 │   └── dags/
