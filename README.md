@@ -73,14 +73,14 @@
 🔗 **[Visit Project App](https://traffic-api-status.vercel.app/?show_api=1#)**  
 Make sure the API is **not down** before proceeding.
 
-💡 Once the API is confirmed to be **live and functional**, you can go ahead and clone the repo, install the dependencies, and run the project locally. Just follow the steps below 👇
+💡 Once the API is confirmed to be **live and functional**, you can go ahead and clone the repo, and run the project locally. 
+Just follow the steps below 👇
 
 
 ## ✅ Prerequisites
 
 Before running this project locally, make sure you have the following installed on your system:
 
-- [Python 3.8+](https://www.python.org/downloads/)
 - [Docker](https://www.docker.com/products/docker-desktop) & [Docker Compose](https://docs.docker.com/compose/)
 - [Git](https://git-scm.com/downloads)
 - A code editor like [VS Code](https://code.visualstudio.com/)
