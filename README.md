@@ -122,6 +122,16 @@ Once the project is up and running, follow these steps:
 ✅ Everything running smoothly? You're all set to explore the project!
 
 
+## 🔌 4. Access the Services
+
+Once the containers are up and running, you can access the following services through your browser:
+
+| Service           | URL                           | Username | Password |
+|-------------------|-------------------------------|----------|----------|
+| Streamlit App     | [http://localhost:8501](http://localhost:8501) | _N/A_     | _N/A_     |
+| Airflow UI        | [http://localhost:8080](http://localhost:8080) | `animesh` | `animesh16` |
+| Grafana Dashboard | [http://localhost:3000](http://localhost:3000) | `admin`   | `animesh16` or `admin`   |
+
 ---
 
 ## 🗃️ Data Stored
