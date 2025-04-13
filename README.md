@@ -1,13 +1,13 @@
 # 🚦 Real-Time  ETL of Road Traffic & Weather Monitoring.
 
-An end-to-end real-time data engineering pipeline to collect, process, and visualize traffic & weather data using **Kafka**, **Airflow**, **PostgreSQL**, and **Grafana Loki**—fully containerized with **Docker**.
+> 🛰️ **An end-to-end real-time data engineering pipeline to collect, process, and visualize road traffic & weather data using **Kafka**, **Airflow**, **PostgreSQL**, and **Grafana Loki**—fully containerized with **Docker**.
+**
 
+---
 ---
 ## 🔑 Key Features
 
-> 🛰️ **This project collects nearby road data based on geographic coordinates, tracks live traffic conditions, and continuously monitors weather information for those routes.**
 
----
 
 - **📦 Fully Dockerized Architecture**  
   Deploy the entire stack with a single `docker-compose up --build` — no manual setup.
