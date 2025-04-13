@@ -6,14 +6,38 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 
 ## 📌 Key Features
 
-- 🔄 Real-time traffic flow via [TomTom API](https://developer.tomtom.com/)
-- 🌐 Nearby road extraction using Overpass API (OpenStreetMap)
-- 🌦️ Weather data integration from [WeatherAPI](https://www.weatherapi.com/)
-- ⚙️ Kafka Producer/Consumer for scalable streaming
-- 📅 Task orchestration via Apache Airflow DAGs
-- 🗃️ PostgreSQL for structured storage
-- 📈 Grafana Loki for centralized logging
-- 🐳 Dockerized for easy deployment
+## 🔑 Key Features
+
+- **📦 Fully Dockerized Architecture**  
+  Easily deploy the entire project stack using a single `docker-compose up --build` command — no manual setup required.
+
+- **⚙️ Real-Time ETL Pipeline 🔄**  
+  Automatically extracts data from APIs, transforms it using Python, and loads it into a PostgreSQL database.
+
+- **⏰ Airflow-Based Workflow Orchestration**  
+  Apache Airflow handles task scheduling, dependency management, and pipeline automation.
+
+- **📝 Centralized Logging with Loki**  
+  All Python logs and Airflow task logs are shipped to Loki for centralized storage and analysis.
+
+- **📊 Visual Monitoring with Grafana**  
+  Custom Grafana dashboards provide real-time insights into pipeline status and logs.
+
+- **🔔 Notification System (Optional)**  
+  Discord webhook integration to receive success/failure alerts for ETL jobs.
+
+- **🔐 Secure Credential & API Key Management**  
+  Firebase is used to store and manage sensitive information like API keys, secrets, and database credentials in a centralized and secure way.
+
+- **💾 Persistent PostgreSQL Storage**  
+  Ensures data durability and schema re-creation on container restart or redeploy.
+
+- **📁 Configurable & Extensible**  
+  Modular directory structure with support for external config files, secrets, and plugins.
+
+- **👨‍💻 Plug-and-Play for Recruiters**  
+  Designed to be cloned and run instantly — no setup headaches, ideal for demos or evaluations.
+
 
 ---
 # 🛠️ Technologies Used
@@ -123,7 +147,7 @@ Once the project is up and running, follow these steps:
 ✅ Everything running smoothly? You're all set to explore the project!
 
 
-## 🔌 4. Access the Services
+## Access the Services
 
 Once the containers are up and running, you can access the following services through your browser:
 
