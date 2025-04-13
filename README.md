@@ -36,7 +36,7 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 ## ⚠️ IMPORTANT:
 
 Before cloning and running this project, **_please ensure that the API is up and running_**. 
-
+<img src="https://img.freepik.com/free-vector/www-concept-illustration_114360-2143.jpg?t=st=1744565213~exp=1744568813~hmac=cc0420ee0ca016a8962950768146a9a73c652ef7e93dfd0f6be86f2c3eca7cb6&w=826" alt="TomTom" width="50"/>
 ➡️ **Visit my website** and confirm that the API is not down. If the API is up and functional, then you can proceed with cloning the repository and running the project.
 
 ### 🔗 **Visit Project App**:  
