@@ -20,7 +20,7 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 
 | Component      | Tool / Service        | Logo                              |
 |----------------|-----------------------|-----------------------------------|
-| **Data Source** | TomTom, Overpass, WeatherAPI | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Tomtom_logo.jpg" alt="TomTom" width="40"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Openstreetmap_logo.svg/225px-Openstreetmap_logo.svg.png" alt="Overpass" width="30"/> <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" alt="WeatherAPI" width="30"/> |
+| **Data Source** | TomTom, Overpass, WeatherAPI | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Tomtom_logo.jpg" alt="TomTom" width="50"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Openstreetmap_logo.svg/225px-Openstreetmap_logo.svg.png" alt="Overpass" width="50"/> <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" alt="WeatherAPI" width="50"/> |
 | **Scheduler**  | Apache Airflow         | <img src="https://icon.icepanel.io/Technology/svg/Apache-Airflow.svg" alt="Airflow" width="100"/> |
 | **Streaming**  | Apache Kafka           | <img src="https://kafka.apache.org/images/apache-kafka.png" alt="Kafka" width="100"/> |
 | **Storage**    | PostgreSQL             | <img src="https://www.logo.wine/a/logo/PostgreSQL/PostgreSQL-Logo.wine.svg" alt="PostgreSQL" width="100"/> |
