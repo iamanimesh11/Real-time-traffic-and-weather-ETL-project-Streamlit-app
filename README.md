@@ -9,7 +9,7 @@
 
 
 
-- **📦 Fully Dockerized Architecture**  
+- **🐳 Fully Dockerized Architecture**  
   Deploy the entire stack with a single `docker-compose up --build` — no manual setup.
 
 - **⚙️ Real-Time ETL Pipeline with Kafka Streaming**  
