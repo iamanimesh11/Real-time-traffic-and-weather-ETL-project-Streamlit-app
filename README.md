@@ -43,7 +43,7 @@ Before cloning and running this project, **_please ensure that the API is up and
 > _**https://traffic-api-status.vercel.app/?show_api=1#**_
 
 💡 **To get this project up and running on your local machine, follow these simple steps:**
-<img src="https://example.com/api-status.png" alt="API Status" width="400"/>
+<img src="https://icon.icepanel.io/Technology/svg/Apache-Airflow.svg" alt="API Status" width="400"/>
 
 
 
