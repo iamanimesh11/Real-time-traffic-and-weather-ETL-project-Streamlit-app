@@ -22,12 +22,12 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 
 ## ⚠️ IMPORTANT:
 
-Before cloning and running thisssssssss project, **_please ensure that the API is up and running_**. 
+Before cloning and running this project, **_please ensure that the API is up and running_**. 
 
 ➡️ **Visit my website** and confirm that the API is not down. If the API is up and functional, then you can proceed with cloning the repository and running the project.
 
 ### 🔗 **Visit My API**:  
-> _**(Replace this URL with your actual API URL)**_
+> _**(https://traffic-api-status.vercel.app/?show_api=1#)**_
 
 💡 **To get this project up and running on your local machine, follow these simple steps:**
 
