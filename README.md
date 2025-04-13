@@ -33,16 +33,20 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 
 # 🚀 Getting Started
 
-## ⚠️ IMPORTANT:
+## ⚠️ IMPORTANT
 
-Before cloning and running this project, **_please ensure that the API is up and running_**. 
-<img src="https://img.freepik.com/free-vector/www-concept-illustration_114360-2143.jpg?t=st=1744565213~exp=1744568813~hmac=cc0420ee0ca016a8962950768146a9a73c652ef7e93dfd0f6be86f2c3eca7cb6&w=826" alt="TomTom" width="50"/>
-➡️ **Visit my website** and confirm that the API is not down. If the API is up and functional, then you can proceed with cloning the repository and running the project.
+> Before cloning and running this project, **please ensure that the API is up and running**.
 
-### 🔗 **Visit Project App**:  
-> _**https://traffic-api-status.vercel.app/?show_api=1#**_
+<p align="center">
+  <img src="https://img.freepik.com/free-vector/www-concept-illustration_114360-2143.jpg?t=st=1744565213~exp=1744568813~hmac=cc0420ee0ca016a8962950768146a9a73c652ef7e93dfd0f6be86f2c3eca7cb6&w=826" alt="API Status Illustration" width="350"/>
+</p>
 
-💡 **To get this project up and running on your local machine, follow these simple steps:**
+🔗 **[Visit Project App](https://traffic-api-status.vercel.app/?show_api=1#)**  
+Make sure the API is not down before proceeding.
+
+---
+
+💡 Once the API is confirmed to be **live and functional**, you can proceed to clone and run the project locally. Just follow these simple steps below! 👇
 
 
 
