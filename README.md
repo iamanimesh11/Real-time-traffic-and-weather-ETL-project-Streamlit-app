@@ -22,7 +22,7 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 
 ## ⚠️ IMPORTANT:
 
-Before cloning and running this project, **_please ensure that the API is up and running_**. 
+Before cloning and running thisssssssss project, **_please ensure that the API is up and running_**. 
 
 ➡️ **Visit my website** and confirm that the API is not down. If the API is up and functional, then you can proceed with cloning the repository and running the project.
 
