@@ -16,7 +16,20 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 - 🐳 Dockerized for easy deployment
 
 ---
+## 🛠️ Technologies Usedd
 
+| Component     | Tool / Service        |
+|---------------|------------------------|
+| Data Source   | TomTom, Overpass, WeatherAPI |
+| Scheduler     | Apache Airflow         |
+| Streaming     | Apache Kafka           |
+| Storage       | PostgreSQL             |
+| Logging       | Grafana Loki           |
+| Container     | Docker, Docker Compose |
+| Language      | Python                 |
+
+
+---
 
 # 🚀 Getting Started
 
@@ -68,20 +81,7 @@ cd project_real_time_trafic_monitoring
 ```
 
 
-## 🛠️ Technologies Usedd
 
-| Component     | Tool / Service        |
-|---------------|------------------------|
-| Data Source   | TomTom, Overpass, WeatherAPI |
-| Scheduler     | Apache Airflow         |
-| Streaming     | Apache Kafka           |
-| Storage       | PostgreSQL             |
-| Logging       | Grafana Loki           |
-| Container     | Docker, Docker Compose |
-| Language      | Python                 |
-
-
----
 
 ## 🚀 Getting Started
 
