@@ -35,24 +35,17 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 
 ## ⚠️ IMPORTANT
 
-<div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+<p align="center">
+  <img src="https://img.freepik.com/free-vector/www-concept-illustration_114360-2143.jpg?t=st=1744565213~exp=1744568813~hmac=cc0420ee0ca016a8962950768146a9a73c652ef7e93dfd0f6be86f2c3eca7cb6&w=826" alt="API Status" width="300"/>
+</p>
 
-<div style="flex: 1;">
-
-> Before cloning and running this project, **please ensure that the API is up and running**.
+> Before cloning and running this project, **please ensure that the API is up and running.**
 
 🔗 **[Visit Project App](https://traffic-api-status.vercel.app/?show_api=1#)**  
-Make sure the API is not down before proceeding.
+Make sure the API is **not down** before proceeding.
 
-💡 Once the API is confirmed to be **live and functional**, you can proceed to clone and run the project locally. Just follow the steps below! 👇
+💡 Once the API is confirmed to be **live and functional**, you can go ahead and clone the repo, install the dependencies, and run the project locally. Just follow the steps below 👇
 
-</div>
-
-<div style="flex-shrink: 0;">
-  <img src="https://img.freepik.com/free-vector/www-concept-illustration_114360-2143.jpg?t=st=1744565213~exp=1744568813~hmac=cc0420ee0ca016a8962950768146a9a73c652ef7e93dfd0f6be86f2c3eca7cb6&w=826" alt="API Status" width="250"/>
-</div>
-
-</div>
 
 
 
