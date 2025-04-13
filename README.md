@@ -16,18 +16,17 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 - 🐳 Dockerized for easy deployment
 
 ---
-## 🛠️ Technologies Usedd
+# 🛠️ Technologies Used
 
-| Component     | Tool / Service        |
-|---------------|------------------------|
-| Data Source   | TomTom, Overpass, WeatherAPI |
-| Scheduler     | Apache Airflow         |
-| Streaming     | Apache Kafka           |
-| Storage       | PostgreSQL             |
-| Logging       | Grafana Loki           |
-| Container     | Docker, Docker Compose |
-| Language      | Python                 |
-
+| Component      | Tool / Service        | Logo                              |
+|----------------|-----------------------|-----------------------------------|
+| **Data Source** | TomTom, Overpass, WeatherAPI | ![TomTom Logo](https://example.com/tomtom-logo.png) ![Overpass Logo](https://example.com/overpass-logo.png) ![WeatherAPI Logo](https://example.com/weatherapi-logo.png) |
+| **Scheduler**  | Apache Airflow         | ![Airflow Logo](https://icon.icepanel.io/Technology/svg/Apache-Airflow.svg) |
+| **Streaming**  | Apache Kafka           | ![Kafka Logo](https://kafka.apache.org/images/apache-kafka.png) |
+| **Storage**    | PostgreSQL             | ![PostgreSQL Logo](https://example.com/postgresql-logo.png) |
+| **Logging**    | Grafana Loki           | ![Grafana Loki Logo](https://www.skedler.com/blog/wp-content/uploads/2021/08/grafana-logo-768x384.png) |
+| **Container**  | Docker, Docker Compose | ![Docker Logo](https://example.com/docker-logo.png) ![Docker Compose Logo](https://example.com/docker-compose-logo.png) |
+| **Language**   | Python                 | ![Python Logo](https://example.com/python-logo.png) |
 
 ---
 
