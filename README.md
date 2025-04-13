@@ -25,6 +25,7 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 | **Streaming**  | Apache Kafka           | <img src="https://irisidea.com/wp-content/uploads/2024/04/kafka-implementation-experience--450x231.png" alt="Kafka" width="120"/> |
 | **Storage**    | PostgreSQL             | <img src="https://www.logo.wine/a/logo/PostgreSQL/PostgreSQL-Logo.wine.svg" alt="PostgreSQL" width="120"/> |
 | **Logging**    | Grafana Loki           | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/2005px-Grafana_logo.svg.png" alt="Grafana Loki" width="100"/> |
+| **UI framework**    | Streamlit           | <img src="https://streamlit.io/images/brand/streamlit-logo-primary-colormark-darktext.png" alt="Streamlit" width="100"/> |
 | **Container**  | Docker, Docker Compose | <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-1024.png" alt="Docker" width="100"/>|
 | **API & Credentials**   | Firebase               | <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxQktpK3Jy3GkxXutGPzl8R3OBCNMxfFWP5A&s" alt="Firebase" width="130"/>|
 | **Language**   | Python                 | <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Python" width="70"/>|
@@ -47,6 +48,18 @@ Make sure the API is **not down** before proceeding.
 💡 Once the API is confirmed to be **live and functional**, you can go ahead and clone the repo, install the dependencies, and run the project locally. Just follow the steps below 👇
 
 
+## ✅ Prerequisites
+
+Before running this project locally, make sure you have the following installed on your system:
+
+- [Python 3.8+](https://www.python.org/downloads/)
+- [Docker](https://www.docker.com/products/docker-desktop) & [Docker Compose](https://docs.docker.com/compose/)
+- [Git](https://git-scm.com/downloads)
+- A code editor like [VS Code](https://code.visualstudio.com/)
+- Internet connection to access external APIs (TomTom, WeatherAPI, etc.)
+
+💡 **Note:**  
+Ensure that your system’s firewall or antivirus isn’t blocking Docker containers from making network requests.
 
 
 ###  Clone the Repository
@@ -85,37 +98,29 @@ cd project_real_time_trafic_monitoring
 
 
 
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Docker & Docker Compose
-- Python 3.8+
-- Kafka, PostgreSQL, Grafana Loki (automated with Docker)
-
-### Run Services
+### Run in terminal
 
 ```bash
-docker-compose up -d
+docker-compose up -d --build
 ```
 
-### Run Airflow
+## ▶️ Next Steps
 
-```bash
-# Inside airflow/
-airflow standalone
-```
+Once the project is up and running, follow these steps:
 
-### Run Kafka
+1. 🌐 Open your browser and visit:  
+   **[http://localhost:8501/](http://localhost:8501/)**  
+   This will open the ETL helper streamlit app .
 
-```bash
-# Run Producer
-python kafka/producer.py
+2. 📋 **Follow the ETL instructions** provided on the dashboard to get started.
 
-# Run Consumer
-python kafka/consumer.py
-```
+3. 🐳 **Keep an eye on your containers:**  
+   Use `docker ps` or Docker Desktop to monitor the status of all services.
+
+---
+
+✅ Everything running smoothly? You're all set to explore the project!
+
 
 ---
 
