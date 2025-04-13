@@ -18,15 +18,15 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 ---
 
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
-
-**IMPORTANT:**  
+## IMPORTANT:
 Before cloning and running this project, **please ensure that the API is up and running**. Visit my website and confirm that the API is not down. If the API is up and functional, then you can proceed with cloning the repository and running the project.
 
-[Visit My API](http://your-api-url-here.com) *(Replace this URL with your actual API URL)*
+> **Visit My API** (Replace this URL with your actual API URL)
 
 To get this project up and running on your local machine, follow these simple steps:
+
 
 ###  Clone the Repository
 
