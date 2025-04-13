@@ -22,9 +22,9 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 |----------------|-----------------------|-----------------------------------|
 | **Data Source** | TomTom, Overpass, WeatherAPI | <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Tomtom_logo.jpg" alt="TomTom" width="50"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Openstreetmap_logo.svg/225px-Openstreetmap_logo.svg.png" alt="Overpass" width="50"/> <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" alt="WeatherAPI" width="50"/> |
 | **Scheduler**  | Apache Airflow         | <img src="https://icon.icepanel.io/Technology/svg/Apache-Airflow.svg" alt="Airflow" width="100"/> |
-| **Streaming**  | Apache Kafka           | <img src="https://kafka.apache.org/images/apache-kafka.png" alt="Kafka" width="100"/> |
+| **Streaming**  | Apache Kafka           | <img src="https://svn.apache.org/repos/asf/kafka/site/logos/originals/png/WIDE%20-%20White%20on%20Transparent.png" alt="Kafka" width="100"/> |
 | **Storage**    | PostgreSQL             | <img src="https://www.logo.wine/a/logo/PostgreSQL/PostgreSQL-Logo.wine.svg" alt="PostgreSQL" width="100"/> |
-| **Logging**    | Grafana Loki           | <img src="https://www.skedler.com/blog/wp-content/uploads/2021/08/grafana-logo-768x384.png" alt="Grafana Loki" width="100"/> |
+| **Logging**    | Grafana Loki           | <img src="https://w7.pngwing.com/pngs/434/923/png-transparent-grafana-hd-logo-thumbnail.png" alt="Grafana Loki" width="100"/> |
 | **Container**  | Docker, Docker Compose | <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-1024.png" alt="Docker" width="100"/>|
 | **Language**   | Python                 | <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Python" width="100"/>|
 
