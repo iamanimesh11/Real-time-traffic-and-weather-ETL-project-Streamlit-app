@@ -26,8 +26,8 @@ Before cloning and running this project, **_please ensure that the API is up and
 
 ➡️ **Visit my website** and confirm that the API is not down. If the API is up and functional, then you can proceed with cloning the repository and running the project.
 
-### 🔗 **Visit My API**:  
-> _**(https://traffic-api-status.vercel.app/?show_api=1#)**_
+### 🔗 **Visit Project App**:  
+> _**https://traffic-api-status.vercel.app/?show_api=1#**_
 
 💡 **To get this project up and running on your local machine, follow these simple steps:**
 
