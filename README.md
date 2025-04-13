@@ -3,41 +3,44 @@
 An end-to-end real-time data engineering pipeline to collect, process, and visualize traffic & weather data using **Kafka**, **Airflow**, **PostgreSQL**, and **Grafana Loki**—fully containerized with **Docker**.
 
 ---
-
-## 📌 Key Features
-
 ## 🔑 Key Features
 
-- **📦 Fully Dockerized Architecture**  
-  Easily deploy the entire project stack using a single `docker-compose up --build` command — no manual setup required.
+> 🛰️ **This project collects nearby road data based on geographic coordinates, tracks live traffic conditions, and continuously monitors weather information for those routes.**
 
-- **⚙️ Real-Time ETL Pipeline 🔄**  
-  Automatically extracts data from APIs, transforms it using Python, and loads it into a PostgreSQL database.
+---
+
+- **📦 Fully Dockerized Architecture**  
+  Deploy the entire stack with a single `docker-compose up --build` — no manual setup.
+
+- **⚙️ Real-Time ETL Pipeline with Kafka Streaming**  
+  Data is streamed in real-time using Apache Kafka, then processed via Python-based ETL jobs and stored in PostgreSQL.
 
 - **⏰ Airflow-Based Workflow Orchestration**  
-  Apache Airflow handles task scheduling, dependency management, and pipeline automation.
+  Apache Airflow schedules and manages ETL workflows and task dependencies.
+  
+- **📡 Apache Kafka for High-Throughput Streaming**  
+  Handles real-time data ingestion and decoupling between data producers and consumers.
 
 - **📝 Centralized Logging with Loki**  
-  All Python logs and Airflow task logs are shipped to Loki for centralized storage and analysis.
+  All logs from Python apps and Airflow tasks are sent to Grafana Loki for monitoring and troubleshooting.
 
 - **📊 Visual Monitoring with Grafana**  
-  Custom Grafana dashboards provide real-time insights into pipeline status and logs.
+  Dashboards offer real-time insights into pipeline performance, traffic flow, and logs.
 
 - **🔔 Notification System (Optional)**  
-  Discord webhook integration to receive success/failure alerts for ETL jobs.
+  Sends ETL job alerts (success/failure) via Discord webhooks.
 
 - **🔐 Secure Credential & API Key Management**  
-  Firebase is used to store and manage sensitive information like API keys, secrets, and database credentials in a centralized and secure way.
+  Firebase securely stores API keys, secrets, and credentials — no hardcoding.
 
 - **💾 Persistent PostgreSQL Storage**  
-  Ensures data durability and schema re-creation on container restart or redeploy.
+  Maintains structured data and ensures durability across restarts.
 
 - **📁 Configurable & Extensible**  
-  Modular directory structure with support for external config files, secrets, and plugins.
+  Clean modular structure with support for external config files, secrets, and new data sources.
 
 - **👨‍💻 Plug-and-Play for Recruiters**  
-  Designed to be cloned and run instantly — no setup headaches, ideal for demos or evaluations.
-
+  Instantly clonable and runnable — ideal for technical demos or code evaluations.
 
 ---
 # 🛠️ Technologies Used
