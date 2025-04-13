@@ -4,6 +4,21 @@
 
 ---
 ---
+
+## 📚 Table of Contents
+- [Overview](#-overview)
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Tech Stack](#-tech-stack)
+- [Setup](#-setup)
+- [Usage](#-usage)
+- [Credentials & API Key Handling](#-credentials--api-keys)
+- [Screenshots](#-screenshots)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+
+
 ## 🔑 Key Features
 
 
