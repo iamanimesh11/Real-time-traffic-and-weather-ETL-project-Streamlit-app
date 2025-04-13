@@ -31,6 +31,7 @@ git clone https://github.com/animesh11singh/project_real_time_trafic_monitoring.
 cd project_real_time_trafic_monitoring
 
 
+```
 
 ## 📂 Folder Structure
 
