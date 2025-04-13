@@ -1,4 +1,4 @@
-# 🚦 Real-Time Road Traffic & Weather Monitoring System
+# 🚦 Real-Time  ETL of Road Traffic & Weather Monitoring.
 
 An end-to-end real-time data engineering pipeline to collect, process, and visualize traffic & weather data using **Kafka**, **Airflow**, **PostgreSQL**, and **Grafana Loki**—fully containerized with **Docker**.
 
@@ -16,6 +16,21 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 - 🐳 Dockerized for easy deployment
 
 ---
+
+
+## 🚀 Getting Started
+
+To get this project up and running on your local machine, follow these simple steps:
+
+### 1. Clone the Repository
+
+First, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/animesh11singh/project_real_time_trafic_monitoring.git
+cd project_real_time_trafic_monitoring
+
+
 
 ## 📂 Folder Structure
 
