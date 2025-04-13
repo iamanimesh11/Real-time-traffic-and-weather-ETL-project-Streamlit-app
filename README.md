@@ -21,12 +21,12 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 | Component      | Tool / Service        | Logo                              |
 |----------------|-----------------------|-----------------------------------|
 | **Data Source** | TomTom, Overpass, WeatherAPI | <img src="https://example.com/tomtom-logo.png" alt="TomTom" width="30"/> <img src="https://example.com/overpass-logo.png" alt="Overpass" width="30"/> <img src="https://example.com/weatherapi-logo.png" alt="WeatherAPI" width="30"/> |
-| **Scheduler**  | Apache Airflow         | <img src="https://icon.icepanel.io/Technology/svg/Apache-Airflow.svg" alt="Airflow" width="30"/> |
-| **Streaming**  | Apache Kafka           | <img src="https://kafka.apache.org/images/apache-kafka.png" alt="Kafka" width="30"/> |
-| **Storage**    | PostgreSQL             | <img src="https://example.com/postgresql-logo.png" alt="PostgreSQL" width="30"/> |
-| **Logging**    | Grafana Loki           | <img src="https://www.skedler.com/blog/wp-content/uploads/2021/08/grafana-logo-768x384.png" alt="Grafana Loki" width="30"/> |
-| **Container**  | Docker, Docker Compose | <img src="https://example.com/docker-logo.png" alt="Docker" width="30"/> <img src="https://example.com/docker-compose-logo.png" alt="Docker Compose" width="30"/> |
-| **Language**   | Python                 | <img src="https://example.com/python-logo.png" alt="Python" width="30"/> |
+| **Scheduler**  | Apache Airflow         | <img src="https://icon.icepanel.io/Technology/svg/Apache-Airflow.svg" alt="Airflow" width="100"/> |
+| **Streaming**  | Apache Kafka           | <img src="https://kafka.apache.org/images/apache-kafka.png" alt="Kafka" width="100"/> |
+| **Storage**    | PostgreSQL             | <img src="https://www.logo.wine/a/logo/PostgreSQL/PostgreSQL-Logo.wine.svg" alt="PostgreSQL" width="100"/> |
+| **Logging**    | Grafana Loki           | <img src="https://www.skedler.com/blog/wp-content/uploads/2021/08/grafana-logo-768x384.png" alt="Grafana Loki" width="100"/> |
+| **Container**  | Docker, Docker Compose | <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-1024.png" alt="Docker" width="100"/>|
+| **Language**   | Python                 | <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Python" width="100"/>|
 
 ---
 
