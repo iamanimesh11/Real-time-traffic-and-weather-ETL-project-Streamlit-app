@@ -22,16 +22,16 @@ An end-to-end real-time data engineering pipeline to collect, process, and visua
 
 To get this project up and running on your local machine, follow these simple steps:
 
-### 1. Clone the Repository
+###  Clone the Repository
 
 First, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/animesh11singh/project_real_time_trafic_monitoring.git
 cd project_real_time_trafic_monitoring
-
-
 ```
+
+
 
 ## 📂 Folder Structure
 
