@@ -8,9 +8,9 @@
 ## 📚 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
-- [Architecture](#-architecture)
+- [Getting Started](#-GettingStarted)
 - [Tech Stack](#-tech-stack)
-- [Setup](#-setup)
+- [Prerequisites](#-Prerequisites)
 - [Usage](#-usage)
 - [Credentials & API Key Handling](#-credentials--api-keys)
 - [Screenshots](#-screenshots)
