@@ -9,7 +9,7 @@ In real-world Data Engineering projects, deploying a full-scale production setup
 ---
 
 ## 📚 Table of Contents
-- [Overview](#-overview)
+
 - [Key Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-GettingStarted)
@@ -20,7 +20,7 @@ In real-world Data Engineering projects, deploying a full-scale production setup
 - [Configurations](#-Configurations)
 - [Logging & Monitoring](#-Logging)
 - [Screenshots](#-screenshots)
-- [Future Improvement](#-Future)
+- [Future Scope](#-Future)
 - [Author](#-author)
 
 
