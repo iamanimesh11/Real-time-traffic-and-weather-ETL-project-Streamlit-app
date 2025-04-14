@@ -10,7 +10,7 @@ In real-world Data Engineering projects, deploying a full-scale production setup
 
 ## 📚 Table of Contents
 
-- [Key Features](#key-features)
+- [Key Features](#-key-features)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
