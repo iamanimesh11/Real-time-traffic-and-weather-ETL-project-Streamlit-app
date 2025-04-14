@@ -229,7 +229,6 @@ This project implements a **centralized logging and monitoring system** using **
 ### Accessing Logs
 
 1. Navigate to [http://localhost:3000](http://localhost:3000)
-2. Login with default credentials (`admin` / `admin`)
 3. Use log query labels like `{job="airflow"}` or `{job="kafka-producer"}` to filter logs
 4. Dashboard panels show service-wise activity, recent errors, and API request status
 
