@@ -3,6 +3,9 @@
 > 🛰️ An end-to-end real-time data engineering pipeline to collect, process, and visualize road traffic & weather data using **Kafka**, **Airflow**, **PostgreSQL**, and **Grafana Loki**—fully containerized with **Docker**.
 
 ---
+**Remarks**:  
+In real-world Data Engineering projects, deploying a full-scale production setup can be costly. Therefore, for the purpose of showcasing, the entire infrastructure in this project is built and demonstrated locally using Docker — ensuring it's fully reproducible without incurring any extra cost.
+
 ---
 
 ## 📚 Table of Contents
@@ -246,7 +249,7 @@ This project implements a **centralized logging and monitoring system** using **
 ---
 
 
-## Future Scope
+## 📊 Future Scope
 
 - **Advanced Analytics & ML Integration:**  
   Implement predictive models for traffic congestion, accident risk zones, or weather-based route recommendations.
@@ -266,6 +269,10 @@ This project implements a **centralized logging and monitoring system** using **
 - **Data Lake Integration:**  
   Archive historical traffic and weather data to a data lake for long-term analysis and trend forecasting.
 ---
+
+Remarks :
+As we know in Data Engineering project,its impossible to bear cost of production and only way is to do everything locally for showcasing a project.
+
 
 ## 👤 Author
 
