@@ -10,10 +10,10 @@ In real-world Data Engineering projects, deploying a full-scale production setup
 
 ## 📚 Table of Contents
 
-- [Key Features](#-Key-Features)
-- [Tech Stack](#-Tech-Stack)
-- [Getting Started](#-Getting-Started)
-- [Prerequisites](#-Prerequisites)
+- [Key Features](#-yey-features)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#-getting-gtarted)
+- [Prerequisites](#-prerequisites)
 - [Architecture](#-Architecture)
 - [Setup Instructions](#-setup-instructions)
 - [Directory Structure](#-Directory-Structure)
