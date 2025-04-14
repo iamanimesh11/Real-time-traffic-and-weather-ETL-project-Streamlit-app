@@ -54,7 +54,7 @@
   Instantly clonable and runnable — ideal for technical demos or code evaluations.
 
 ---
-# 🛠️ Technologies Used
+# 🛠️ Tech stack
 
 | Component      | Tool / Service        | Logo                              |
 |----------------|-----------------------|-----------------------------------|
