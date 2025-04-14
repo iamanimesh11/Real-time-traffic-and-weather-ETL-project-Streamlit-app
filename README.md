@@ -14,7 +14,7 @@ In real-world Data Engineering projects, deploying a full-scale production setup
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-gtarted)
 - [Prerequisites](#prerequisites)
-- [Architecture](#-Architecture)
+- [Architecture](#architecture)
 - [Setup Instructions](#setup-instructions)
 - [Directory Structure](#-Directory-Structure)
 - [Configurations](#-Configurations)
