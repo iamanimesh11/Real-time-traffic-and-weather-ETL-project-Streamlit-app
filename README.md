@@ -16,12 +16,9 @@
 - [Directory Structure](#-Directory-Structure)
 - [Configurations](#-Configurations)
 - [Logging & Monitoring](#-Logging)
-- [usage](#-usage)
+- [Screenshots](#-screenshots)
 - [Future Improvement](#-Future)
 - [Author](#-author)
-
-- [Credentials & API Key Handling](#-credentials--api-keys)
-- [Screenshots](#-screenshots)
 
 
 ## 🔑 Key Features
@@ -252,8 +249,10 @@ This project implements a **centralized logging and monitoring system** using **
 
 - Integrate Spark or PySpark to process stored JSON data
 - Build ML model to predict traffic congestion
+- Bui
 - Expose API via FastAPI or Flask to serve predictions
 - Visualize insights with Power BI / Tableau
+- 
 
 ---
 
