@@ -11,6 +11,15 @@
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-GettingStarted)
 - [Prerequisites](#-Prerequisites)
+- [Architecture](#-Architecture)
+- [Setup Instructions](#-setup-instructions)
+- [Directory Structure](#-Directory-Structure)
+- [Configurations](#-Configurations)
+- [Logging & Monitoring](#-Logging)
+- [usage](#-usage)
+- [Future Improvement](#-Future)
+- [Author](#-author)
+
 - [Credentials & API Key Handling](#-credentials--api-keys)
 - [Screenshots](#-screenshots)
 
@@ -70,11 +79,16 @@
 
 ---
 
+# Architecture
+
+
+
+
 # 🚀 Getting Started
 
 ## ⚠️ IMPORTANT
 
-<p align="center">
+<p align="left">
   <img src="https://img.freepik.com/free-vector/www-concept-illustration_114360-2143.jpg?t=st=1744565213~exp=1744568813~hmac=cc0420ee0ca016a8962950768146a9a73c652ef7e93dfd0f6be86f2c3eca7cb6&w=826" alt="API Status" width="300"/>
 </p>
 
@@ -100,6 +114,9 @@ Before running this project locally, make sure you have the following installed 
 Ensure that your system’s firewall or antivirus isn’t blocking Docker containers from making network requests.
 
 
+# Setup Instructions
+
+
 ###  Clone the Repository
 
 First, clone the repository to your local machine:
@@ -108,10 +125,12 @@ First, clone the repository to your local machine:
 git clone https://github.com/animesh11singh/project_real_time_trafic_monitoring.git
 cd project_real_time_trafic_monitoring
 ```
+### Run in terminal
 
-
-
-### 📂 Folder Structure
+```bash
+docker-compose up -d --build
+```
+# 📂Directory Structure
 
 ```bash
 .
@@ -135,13 +154,6 @@ cd project_real_time_trafic_monitoring
 ```
 
 
-
-### Run in terminal
-
-```bash
-docker-compose up -d --build
-```
-
 ### ▶️ Next Steps
 
 Once the project is up and running, follow these steps:
@@ -158,6 +170,11 @@ Once the project is up and running, follow these steps:
 ---
 
 ✅ Everything running smoothly? You're all set to explore the project!
+
+
+
+
+
 
 
 ## Access the Services
