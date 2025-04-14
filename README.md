@@ -19,11 +19,6 @@
 ## 🔑 Key Features
 
 
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAGh5KDbTKQ/y8tjSorL17l5vWz83W6nQQ/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGh5KDbTKQ&#x2F;y8tjSorL17l5vWz83W6nQQ&#x2F;watch?utm_content=DAGh5KDbTKQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">docker pull &lt;image_name&gt;:&lt;tag&gt;</a> by ANIMESH SINGH
-
 
 - **🐳 Fully Dockerized Architecture**  
   Deploy the entire stack with a single `docker-compose up --build` — no manual setup.
