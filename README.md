@@ -12,10 +12,10 @@ In real-world Data Engineering projects, deploying a full-scale production setup
 
 - [Key Features](#-key-features)
 - [Tech Stack](#tech-stack)
-- [Getting Started](#-getting-gtarted)
-- [Prerequisites](#-prerequisites)
+- [Getting Started](#getting-gtarted)
+- [Prerequisites](#prerequisites)
 - [Architecture](#-Architecture)
-- [Setup Instructions](#-setup-instructions)
+- [Setup Instructions](#setup-instructions)
 - [Directory Structure](#-Directory-Structure)
 - [Configurations](#-Configurations)
 - [Logging & Monitoring](#-Logging-Monitoring)
