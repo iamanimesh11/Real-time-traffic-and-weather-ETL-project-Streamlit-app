@@ -245,15 +245,26 @@ This project implements a **centralized logging and monitoring system** using **
 
 ---
 
-## 📊 Future Scope
 
-- Integrate Spark or PySpark to process stored JSON data
-- Build ML model to predict traffic congestion
-- Bui
-- Expose API via FastAPI or Flask to serve predictions
-- Visualize insights with Power BI / Tableau
-- 
+## Future Scope
 
+- **Advanced Analytics & ML Integration:**  
+  Implement predictive models for traffic congestion, accident risk zones, or weather-based route recommendations.
+
+- **Real-Time Alert System:**  
+  Notify users of traffic anomalies or severe weather via email, SMS, or push notifications.
+
+- **Interactive Dashboard:**  
+  Integrate tools like Streamlit or Dash for live data visualization and insights.
+
+- **Scalability Enhancements:**  
+  Deploy to cloud platforms (AWS, GCP, or Azure) using Kubernetes and CI/CD pipelines for production readiness.
+
+- **API Gateway & Access Layer:**  
+  Build secure REST APIs for external systems to query real-time traffic insights.
+
+- **Data Lake Integration:**  
+  Archive historical traffic and weather data to a data lake for long-term analysis and trend forecasting.
 ---
 
 ## 👤 Author
