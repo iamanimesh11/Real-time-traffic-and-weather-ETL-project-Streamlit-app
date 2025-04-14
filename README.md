@@ -130,7 +130,7 @@ cd project_real_time_trafic_monitoring
 ```bash
 docker-compose up -d --build
 ```
-# 📂Directory Structure
+## 📂Directory Structure
 
 ```bash
 .
@@ -162,7 +162,7 @@ Once the project is up and running, follow these steps:
    **[http://localhost:8501/](http://localhost:8501/)**  
    This will open the ETL helper streamlit app .
 
-2. 📋 **Follow the ETL instructions** provided on the dashboard to get started.
+2. 📋 **Follow the ETL instructions** provided on the strreamlit app to Simulate ETL step by step.
 
 3. 🐳 **Keep an eye on your containers:**  
    Use `docker ps` or Docker Desktop to monitor the status of all services.
@@ -177,17 +177,54 @@ Once the project is up and running, follow these steps:
 
 
 
-## Access the Services
+## Configurations 
 
-Once the containers are up and running, you can access the following services through your browser:
+### Access the Services
+Once the containers are up and running, you can access the following services :
 
 | Service           | URL                           | Username | Password |
 |-------------------|-------------------------------|----------|----------|
 | Streamlit App     | [http://localhost:8501](http://localhost:8501) | _N/A_     | _N/A_     |
 | Airflow UI        | [http://localhost:8080](http://localhost:8080) | `animesh` | `animesh16` |
-| Grafana Dashboard | [http://localhost:3000](http://localhost:3000) | `admin`   | `animesh16` or `admin`   |
+| Grafana Dashboard for logs | [http://localhost:3000](http://localhost:3000) | `admin`   | `animesh16` or `admin`   |
+
+Postgrsql Database initialized at startup of Postgresql container with default configurations.
 
 ---
+
+
+## 📊 Logging & Monitoring
+
+### 📝 Logging
+
+- Logs from all ETL tasks  and serivces (Extract, Transform, Load) are stored in the `./logs/` directory.
+- Promptail scrap logs from logs directory in Airflow.
+- Airflow UI provides detailed task-level logs:
+  - Execution timestamp
+  - Duration of each task
+  - Success or failure status
+  - Number of records processed
+- Structured logging enables better traceability and debugging.
+
+### 🔎 Monitoring
+
+- **Grafana** is integrated with **Loki**  and **Promptail** for real-time observability.
+- Two major dashboards are there: Airflow Log Analytics ,ETL dashboard
+- Live dashboards visualize:
+  - DAG execution duration
+  - Task runtime trends
+  - Failure and retry counts
+- **Alerts** and **Rules** are for:
+  - DAG failures
+  - task failure or success
+  - services performance
+  - Anomalous execution durations
+
+📷 **Please find sample images of dashboards and logs below**
+
+
+
+> ✅ This setup ensures end-to-end visibility into your ETL pipeline operations.
 
 ## 🗃️ Data Stored
 
