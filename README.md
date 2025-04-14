@@ -7,7 +7,7 @@
 
 ## 📚 Table of Contents
 - [Overview](#-overview)
-- [Features](#-features)
+- [Key Features](#-features)
 - [Getting Started](#-GettingStarted)
 - [Tech Stack](#-tech-stack)
 - [Prerequisites](#-Prerequisites)
