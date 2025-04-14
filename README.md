@@ -14,9 +14,6 @@
 - [Usage](#-usage)
 - [Credentials & API Key Handling](#-credentials--api-keys)
 - [Screenshots](#-screenshots)
-- [Contributing](#-contributing)
-- [License](#-license)
-
 
 
 ## 🔑 Key Features
