@@ -195,30 +195,43 @@ Postgrsql Database initialized at startup of Postgresql container with default c
 
 ## 📊 Logging & Monitoring
 
-### 📝 Logging
 
-- Logs from all ETL tasks  and serivces (Extract, Transform, Load) are stored in the `./logs/` directory.
-- Promptail scrap logs from logs directory in Airflow.
-- Airflow UI provides detailed task-level logs:
-  - Execution timestamp
-  - Duration of each task
-  - Success or failure status
-  - Number of records processed
-- Structured logging enables better traceability and debugging.
+This project implements a **centralized logging and monitoring system** using **Grafana Loki**, ensuring transparency, debuggability, and maintainability across all services.
 
-### 🔎 Monitoring
+### Key Highlights
 
-- **Grafana** is integrated with **Loki**  and **Promptail** for real-time observability.
-- Two major dashboards are there: Airflow Log Analytics ,ETL dashboard
-- Live dashboards visualize:
-  - DAG execution duration
-  - Task runtime trends
-  - Failure and retry counts
-- **Alerts** and **Rules** are for:
-  - DAG failures
-  - task failure or success
-  - services performance
-  - Anomalous execution durations
+- **Structured Logging**  
+  All Python scripts across Kafka producers/consumers, Airflow DAGs, and data pipelines generate structured logs with timestamp, service name, event type, and status.
+
+- **Centralized Collection with Grafana Loki**  
+  Logs from all services are collected and pushed to Loki using `Promtail`. These logs are accessible in real-time via **Grafana dashboards**.
+
+- **Dockerized Monitoring Stack**  
+  - `Grafana` for visualization  
+  - `Loki` for log storage  
+  - `Promtail` for log shipping  
+  These services are configured in `docker-compose.yml` with persistent volume storage.
+
+- **Real-Time Debugging**  
+  Logs include all critical operations such as:
+  - API calls (Overpass, TomTom, WeatherAPI)  
+  - Kafka message flow  
+  - Database operations (insert/update/failure)  
+  - Retry attempts and error messages  
+
+- **Failover & Local Storage**  
+  In case of Grafana/Loki downtime, logs are safely written to local files and retried later to avoid data loss.
+
+- **Security & Hygiene**  
+  - API keys and sensitive values are **excluded from log outputs**  
+  - Logs are rotated and archived periodically (based on configuration)
+
+### Accessing Logs
+
+1. Navigate to [http://localhost:3000](http://localhost:3000)
+2. Login with default credentials (`admin` / `admin`)
+3. Use log query labels like `{job="airflow"}` or `{job="kafka-producer"}` to filter logs
+4. Dashboard panels show service-wise activity, recent errors, and API request status
 
 📷 **Please find sample images of dashboards and logs below**
 
