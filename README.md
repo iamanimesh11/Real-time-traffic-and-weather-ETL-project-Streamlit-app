@@ -62,7 +62,7 @@ In real-world Data Engineering projects, deploying a full-scale production setup
   Instantly clonable and runnable — ideal for technical demos or code evaluations.
 
 ---
-#🛠️ Tech stack
+#🛠️Tech Stack
 
 | Component      | Tool / Service        | Logo                              |
 |----------------|-----------------------|-----------------------------------|
