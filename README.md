@@ -16,7 +16,7 @@ In real-world Data Engineering projects, deploying a full-scale production setup
 - [Prerequisites](#-prerequisites)
 - [Architecture](#architecture)
 - [Setup Instructions](#setup-instructions)
-- [Directory Structure](#-directory-structure)
+- [Directory Structure](#directory-structure)
 - [Configurations](#configurations)
 - [Logging & Monitoring](#-logging--monitoring)
 - [Screenshots](#screenshots)
