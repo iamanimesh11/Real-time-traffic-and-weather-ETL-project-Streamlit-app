@@ -276,8 +276,8 @@ As we know in Data Engineering project,its impossible to bear cost of production
 
 ## 👤 Author
 
-- **[Your Name]**
-- 💼 Aspiring Data Engineer | Python | Kafka | Airflow | Docker
+- **[Animesh Singh]**
+- 💼 Aspiring Data Engineer | Big Data |Python | Postgresql/Databases| Kafka | Airflow | Docker 
 ```
 
 ----------------------------------------------------------------------------
