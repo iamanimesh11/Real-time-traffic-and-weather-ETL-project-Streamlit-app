@@ -10,17 +10,17 @@ In real-world Data Engineering projects, deploying a full-scale production setup
 
 ## 📚 Table of Contents
 
-- [Key Features](#-features)
+- [Key Features](#-Key-Features)
 - [Tech Stack](#-tech-stack)
-- [Getting Started](#-GettingStarted)
+- [Getting Started](#-Getting-Started)
 - [Prerequisites](#-Prerequisites)
 - [Architecture](#-Architecture)
 - [Setup Instructions](#-setup-instructions)
 - [Directory Structure](#-Directory-Structure)
 - [Configurations](#-Configurations)
-- [Logging & Monitoring](#-Logging)
-- [Screenshots](#-screenshots)
-- [Future Scope](#-Future)
+- [Logging & Monitoring](#-Logging-Monitoring)
+- [Screenshots](#-Screenshots)
+- [Future Scope](#-Future-Scope)
 - [Author](#-author)
 
 
