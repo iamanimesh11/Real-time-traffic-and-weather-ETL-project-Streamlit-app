@@ -7,6 +7,8 @@
 In real-world Data Engineering projects, deploying a full-scale production setup can be costly. Therefore, for the purpose of showcasing, the entire infrastructure in this project is built and demonstrated locally using Docker — ensuring it's fully reproducible without incurring any extra cost.
 
 ---
+![Workflow](workflow.gif)
+
 
 ## 📚 Table of Contents
 
