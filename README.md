@@ -94,7 +94,7 @@ In real-world Data Engineering projects, deploying a full-scale production setup
 
 > Before cloning and running this project, **please ensure that the API is up and running.**
 
-🔗 **[Visit Project App](https://traffic-api-status.vercel.app/?show_api=1#)**  
+🔗 **[Visit Project App](https://realtimeetlroadtrafficweather.vercel.app/#)**  
 Make sure the API is **not down** before proceeding.
 
 💡 Once the API is confirmed to be **live and functional**, you can go ahead and clone the repo, and run the project locally. 
